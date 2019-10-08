@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace GreetingController.Controllers{
-    [APIController]
+namespace APITutorial.Controllers
+{
+    [ApiController]
     [Route("[controller]")]
     public class GreetingController : ControllerBase{
 
